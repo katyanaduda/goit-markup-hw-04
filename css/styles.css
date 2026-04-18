@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color:#2E2F42;
+    background-color:#fff;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin-block: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-block: 0;
+    padding-left: 0;
+}
+
+a{
+text-decoration: none;
+}
+address{
+    font-style: normal;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+                 /* header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    font-family: "Raleway";
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-logo-blue {
+    color: blue;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway";
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404BBF;
+}
+
+.contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.contacts {
+    margin-left: auto;
+}
+.header-contacts-link{
+    display: block;
+        padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+                  /* hero */
+
+.hero{
+    background-color: #2e2f42;
+    padding: 188px 0;
+    margin: auto 0;
+}
+.hero-container{
+    text-align: center;
+}
+.hero-title{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.071;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        margin: 0 auto;
+        max-width: 496px;
+        margin-bottom: 48px;
+}
+
+.hero-button{
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #FFFFFF;
+    background-color:#404BBF;
+    }
+
+                /* features */
+
+.features-container{
+    padding-block: 120px;
+    margin: 0 auto;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-subtitle{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+}
+
+.features-item-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.features-item {
+    width: calc((100% - 24px * 3) / 4);
+}
+                 /* taste */
+
+.taste{
+    background-color:#F4F4FD;
+    padding: 120px 0; 
+}
+
+.taste-card{
+    border-radius: 0 0 4px 4px;
+    background: #fff;
+    
+    border-radius: 0 0 4px 4px;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+.taste-card-content{
+    text-align: center;
+    padding: 32px 16px;
+}
+.taste-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    padding-bottom: 72px;
+}
+
+.taste-card-bold {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    
+}
+
+.taste-card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.taste-list{
+    display: flex;
+    gap: 24px;
+}
+
+                  /* portfolio */
+
+.portfolio {
+    padding-block: 120px;
+    margin: auto 0;
+}
+.portfolio-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        padding-bottom: 72px;
+}
+
+.portfolio-list-bold{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        align-items: center;
+}
+
+.portfolio-list-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        align-items: center;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    
+}
+.portfolio-card{
+    width: calc((100% - 24px * 2) / 3);
+    flex-basis: calc((100% - 48px) /3);
+}
+.portfolio-card-content{
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    text-align: left;
+    padding: 32px 16px;
+}
+
+                 /* footer */
+
+.footer{
+    background-color: #2e2f42;
+    padding-block: 100px;
+}
+.footer-conteiner{
+    display: block;
+}
+
+.footer-logo-white {
+color: white;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;;
+    font-family: "Raleway";
+}
+
+.footer-text{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+.footer-logo{
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 16px;
+}
