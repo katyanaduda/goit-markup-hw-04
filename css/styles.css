@@ -183,9 +183,19 @@ img {
 
 .hero{
     background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+    url('/images/peopleoffice\ 10.jpg');
+    max-width: 1158px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 188px 0;
-    margin: auto 0;
+    margin: 0 auto;
 }
+
 .hero-container{
     text-align: center;
 }
@@ -252,6 +262,11 @@ img {
 .features-item {
     width: calc((100% - 24px * 3) / 4);
 }
+.features-item-icon{
+    width: 64px;
+    height: 64px;
+    
+}
                  /* taste */
 
 .taste{
@@ -262,7 +277,6 @@ img {
 .taste-card{
     border-radius: 0 0 4px 4px;
     background: #fff;
-    
     border-radius: 0 0 4px 4px;
     gap: 24px;
     width: calc((100% - 72px) / 4);
@@ -270,7 +284,10 @@ img {
 .taste-card-content{
     text-align: center;
     padding: 32px 16px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
+
 .taste-title {
     font-weight: 700;
     font-size: 36px;
