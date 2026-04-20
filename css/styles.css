@@ -467,9 +467,9 @@ img {
 /* .footer-conteiner- {
     display: block;
 } */
-.footer-box {
+/* .footer-box {
     margin-right: 120px;
-}
+} */
 
 .footer-logo-white {
     font-family: "Raleway", sans-serif;
@@ -568,11 +568,11 @@ margin-bottom: 16px;
 }
 .footer-container {
     display: flex;
-    /* align-items: flex-start;
-    gap: 120px; */
+    align-items: flex-start;
+    gap: 120px;
 }
 .footer-icon-link {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link:hover,
 .footer-icon-link:focus { 
